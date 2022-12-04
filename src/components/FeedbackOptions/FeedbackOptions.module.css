@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 3px solid #eded18;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #eded18;
+}
